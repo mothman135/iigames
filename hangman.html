@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisielec</title>
+    <link rel="stylesheet" href="hangman.css" />
+    <script src="hangman-scripts/word-list.js" defer></script>
+    <script src="hangman-scripts/hangman-script.js" defer></script>
+  </head>
+  <body>
+    <div class="game-modal">
+      <div class="content">
+        <img src="hangman-images/lost.gif" alt="gif" />
+        <h4>Koniec Gry!</h4>
+        <p>Poprawne słowo to: <b>amongus</b></p>
+        <button class="play-again">Zagraj ponownie</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="hangman-box">
+        <img src="hangman-images/hangman-0.svg" alt="hangman-img" />
+        <h1>Wisielec</h1>
+      </div>
+      <div class="game-box">
+        <ul class="word-display"></ul>
+        <h4 class="hint-text">
+          Podpowiedź:
+          <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+        </h4>
+        <h4 class="guesses-text">
+          Niepoprawne zgadnięcia:
+          <b>0 / 6</b>
+        </h4>
+        <div class="keyboard"></div>
+      </div>
+    </div>
+  </body>
+</html>

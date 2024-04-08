@@ -14,11 +14,12 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 10px;
 }
 
 .cell {
-    background-color: #fff;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #bfbfbf;
     border: 2px solid #333;
     display: flex;
     justify-content: center;
@@ -35,15 +36,21 @@ body {
 }
 
 .game-message {
+    font-family: "Open Sans", sans-serif;
     text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
     color: #333;
+    font-weight: bold;
 }
 
 #resetButton {
+    justify-content: center;
+    align-self: center;
     padding: 10px 20px;
-    font-size: 1rem;
+    width: 20%;
+    font-size: 2rem;
     color: #fff;
     background-color: #333;
     border: none;

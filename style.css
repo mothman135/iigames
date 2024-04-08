@@ -23,7 +23,6 @@ h1 {
     text-decoration: none;
     color: black;
     border: 1px solid #ccc;
-    /* Add borders between grid items */
 }
 
 .grid-item:hover {

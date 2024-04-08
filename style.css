@@ -62,7 +62,6 @@ h1 {
 .btn-grad:hover {
     background-position: right center;
     cursor: pointer;
-    /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
 }

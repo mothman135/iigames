@@ -9,7 +9,7 @@ body {
     color: #333;
 }
 
-#ttt-board {
+#tic-tac-toe-board {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 100px);
@@ -18,8 +18,8 @@ body {
 }
 
 .cell {
-    background-color: #333;
-    border: 2px solid #fff;
+    background-color: #fff;
+    border: 2px solid #333;
     display: flex;
     justify-content: center;
     align-items: center;

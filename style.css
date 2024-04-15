@@ -11,6 +11,36 @@ h1 {
     text-align: center;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.navbar.small {
+    padding: 5px 0;
+    /* smaller padding */
+    font-size: 0.8em;
+    /* smaller font size */
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Clicker</title>
+    <link href="clickerstyle.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Clicker</title>
-  <link href="clickerstyle.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-  <div id="game">
-    <div id="score">
-      <span class="stat">score: <strong><span id="scoreText">0</span></strong></span>
-      <span class="stat">coins: <strong><span id="coinsText">0</span></strong></span>
+  <body>
+    <div id="game">
+      <div id="score">
+        <span class="stat"
+          >wynik: <strong><span id="scoreText">0</span></strong></span
+        >
+        <span class="stat"
+          >monety: <strong><span id="coinsText">0</span></strong></span
+        >
+      </div>
+      <br /><br />
+      <button id="clickSpot"><strong>kliknij!</strong></button>
     </div>
-    <br><br>
-    <button id="clickSpot"><strong>click!</strong></button>
-  </div>
-  <script src="clickerscript.js"></script>
-</body>
-
+    <script src="clickerscript.js"></script>
+  </body>
 </html>

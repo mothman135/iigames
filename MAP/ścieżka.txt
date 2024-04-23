@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    long long a, b, c, d, n, m, sr_L, sr_M;
+    a = 0, b = 1, c = 1, d = 0, sr_L = 1, sr_M = 1;
+    cin >> m >> n;
+    while(m * sr_L != n * sr_M{
+        if(m * sr_L > n * sr_M){
+            nowe a i b
+            P
+        }
+        if(m * sr_L < n * sr_M){
+            nowe c i d
+            L
+        }
+        wyznacz nowy sr_L (a + c) i nowy sr_M (b + d)
+    }
+
+    return 0;
+}

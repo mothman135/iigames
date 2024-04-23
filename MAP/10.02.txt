@@ -1,0 +1,10 @@
+DZIELNIKI
+definiowanie wektora
+vector<typ danych> nazwaWektora;
+
+dodawanie wartości do wektora
+nazwaWektora.push_back(element);
+
+wielkość wektoria
+nazwaWektora.size();
+
